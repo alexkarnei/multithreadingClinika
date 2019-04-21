@@ -20,4 +20,8 @@ public class Doctor extends Thread {
     public void setPatientToServe(int patientToServe) {
         this.patientToServe = patientToServe;
     }
+
+    public int getMaxQuantityPatientInDay() {
+        return maxQuantityPatientInDay;
+    }
 }

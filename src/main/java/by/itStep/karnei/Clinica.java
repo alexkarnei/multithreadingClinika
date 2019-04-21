@@ -19,7 +19,15 @@ public class Clinica {
         return rooms;
     }
 
+    public void setRooms(Collection<Room> rooms) {
+        this.rooms = rooms;
+    }
+
     public Queue<Patient> getPatients() {
         return patients;
+    }
+
+    public void setPatients(Queue<Patient> patients) {
+        this.patients = patients;
     }
 }

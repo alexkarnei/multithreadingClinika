@@ -17,6 +17,10 @@ public class Room {
         return doctor;
     }
 
+    public void setDoctor(Doctor doctor) {
+        this.doctor = doctor;
+    }
+
     public Lock getLock() {
         return lock;
     }
