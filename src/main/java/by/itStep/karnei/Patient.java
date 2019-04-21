@@ -9,4 +9,20 @@ public class Patient extends Thread {
         this.orderNumber = orderNumber;
         this.timeToHeal = timeToHeal;
     }
+
+    public int getOrderNumber() {
+        return orderNumber;
+    }
+
+    public void setOrderNumber(int orderNumber) {
+        this.orderNumber = orderNumber;
+    }
+
+    public int getTimeToHeal() {
+        return timeToHeal;
+    }
+
+    public void setTimeToHeal(int timeToHeal) {
+        this.timeToHeal = timeToHeal;
+    }
 }

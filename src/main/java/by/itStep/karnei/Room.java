@@ -6,10 +6,22 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Room {
 
     private Doctor doctor;
-    private Lock lock = new ReentrantLock();
+    private Lock lock;
 
     public Room(Doctor doctor, Lock lock) {
         this.doctor = doctor;
+        this.lock = new ReentrantLock();
+    }
+
+    public Doctor getDoctor() {
+        return doctor;
+    }
+
+    public Lock getLock() {
+        return lock;
+    }
+
+    public void setLock(Lock lock) {
         this.lock = lock;
     }
 }

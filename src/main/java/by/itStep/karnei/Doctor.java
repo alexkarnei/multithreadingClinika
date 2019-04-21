@@ -8,4 +8,12 @@ public class Doctor extends Thread {
     public Doctor(int patientToServe) {
         this.patientToServe = patientToServe;
     }
+
+    public int getPatientToServe() {
+        return patientToServe;
+    }
+
+    public void setPatientToServe(int patientToServe) {
+        this.patientToServe = patientToServe;
+    }
 }
