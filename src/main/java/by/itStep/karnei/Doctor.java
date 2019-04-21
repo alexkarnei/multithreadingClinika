@@ -9,6 +9,10 @@ public class Doctor extends Thread {
         this.patientToServe = patientToServe;
     }
 
+    public void run(){
+
+    }
+
     public int getPatientToServe() {
         return patientToServe;
     }

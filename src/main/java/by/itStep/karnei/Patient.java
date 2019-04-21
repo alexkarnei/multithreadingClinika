@@ -10,6 +10,10 @@ public class Patient extends Thread {
         this.timeToHeal = timeToHeal;
     }
 
+    public void run() {
+
+    }
+
     public int getOrderNumber() {
         return orderNumber;
     }

@@ -8,7 +8,7 @@ public class Room {
     private Doctor doctor;
     private Lock lock;
 
-    public Room(Doctor doctor, Lock lock) {
+    public Room(Doctor doctor) {
         this.doctor = doctor;
         this.lock = new ReentrantLock();
     }

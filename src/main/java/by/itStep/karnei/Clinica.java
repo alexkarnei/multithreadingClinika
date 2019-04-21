@@ -10,9 +10,9 @@ public class Clinica {
     private Collection<Room> rooms;
     private Queue<Patient> patients;
 
-    public Clinica(Collection<Room> rooms, Queue<Patient> patients) {
-        this.rooms = new ArrayList<Room>(rooms.size());
-        this.patients = new ArrayBlockingQueue<Patient>(patients.size());
+    public Clinica(int roomQuantity, int queueQuantity) {
+        this.rooms = new ArrayList<Room>(roomQuantity);
+        this.patients = new ArrayBlockingQueue<Patient>(queueQuantity);
     }
 
     public Collection<Room> getRooms() {
